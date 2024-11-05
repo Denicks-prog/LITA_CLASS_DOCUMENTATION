@@ -12,7 +12,7 @@ The primary source of data used here is an open source data tht can easily be do
 
 ## Tools used:
 ---
-- Microsoft excel [Download Here] (https://www.microsoft.com).
+- Microsoft excel [Download Here](https://www.microsoft.com)
 1. For Data Cleaning
 2. For Analysis
 3. For Data Visualization
