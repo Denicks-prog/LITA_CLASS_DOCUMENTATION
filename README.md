@@ -33,7 +33,13 @@ This is the first phase of data analysis, and it involves:
 4. Data formatting.
 5. Validation of data etc.
 
-## Explorative Data Analysis
+## Explorative Data Analysis 
+
+This involves exploring the given dataset to answer some questions about the data such as;
+
+- What is the average subscription duration and the most popular subscription patterns?
+- What is the summary of total sales by product. region and month?
+- What is the average sales per product and total revenue per region?
 
 ## Data Analysis
 ---
