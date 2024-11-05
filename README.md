@@ -37,9 +37,50 @@ This is the first phase of data analysis, and it involves:
 
 ## Data Analysis
 ---
-This is the process of extracting insights and crucial information from a set of data, it helps to summarize the data and also interprete results.
+This is the process of extracting insights and crucial information from a set of data, it helps to summarize the data and also interprete results;
 
-'''SQL
+```SQL
+
+Select * from SalesData$
+
+select [total sales], product from [dbo].[SalesData$]
+
+select product, sum([total sales]) AS TOTALSALES FROM [dbo].[SalesData$]
+
+GROUP BY Product
+
+SELECT Region, count([Customer Id]) AS NUMBEROFSALES FROM [dbo].[SalesData$]
+
+GROUP BY Region
+
+select sum([total sales]) AS TOTALSALES, Product from [dbo].[SalesData$]
+
+GROUP BY Product
+
+ORDER BY 1 DESC
+
+SELECT SUM ([total sales]) AS TOTALMONTHLYSALES FROM [dbo].[SalesData$]
+
+WHERE EXTRACT(YEAR FROM OrderDate)=EXTRACT(YEAR FROM CURRENTDATE)
+
+GROUP BY EXTRACT(YEAR FROM OrderDate)
+
+EXTRACT(MONTH FROM OrderDate)
+
+ORDER BY YEAR SALES, MONTH SALES
+
+SELECT SUM([total sales]) AS TOTALMONTHSALES FROM [dbo].[SalesData$]
+
+WHERE DATEPART(YEAR, OrderDate)=DATEPART(2023, GETDATE(04/11/2024)
+
+SELECT TOP 5 [Customer Id], [total sales] FROM [dbo].[SalesData$]
+
+order by [total sales] DESC
+
+SELECT region, [total sales], ([total sales]/select sum([total sales]) from [dbo].[SalesData$])*100 as percentage of total sales from [dbo].[SalesData$]
+group by region, [total sales]
+```
+
 
 ## Data Visualization
 ---
