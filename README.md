@@ -33,6 +33,14 @@ This is the first phase of data analysis, and it involves:
 4. Data formatting.
 5. Validation of data etc.
 
+## Explorative Data Analysis
+
+## Data Analysis
+---
+This is the process of extracting insights and crucial information from a set of data, it helps to summarize the data and also interprete results.
+
+'''SQL
+
 ## Data Visualization
 ---
 ![P1](https://github.com/user-attachments/assets/598d805e-cafd-4adb-bd4c-96403b1f5b2d)
