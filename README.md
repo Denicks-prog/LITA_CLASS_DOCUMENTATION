@@ -43,7 +43,9 @@ This involves exploring the given dataset to answer some questions about the dat
 
 ## Data Analysis
 ---
-This is the process of extracting insights and crucial information from a set of data, it helps to summarize the data and also interprete results;
+This is the process of extracting insights and crucial information from a set of data, it helps to summarize the data and also interprete results. 
+
+### PROJECT 1
 
 ```SQL
 
