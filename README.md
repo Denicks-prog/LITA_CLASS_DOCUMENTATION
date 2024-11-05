@@ -9,13 +9,13 @@ The primary source of data used here is an open source data tht can easily be do
 
 ## Tools used:
 
--Microsoft excel: For
+- Microsoft excel: For
 1. Data Cleaning
 2. Analysis
 3. Visualization
 
--Sql- Structured Query language
+- Sql- Structured Query language
 
--Github for portfolio building
+- Github for portfolio building
 
--Power BI(business intelligence)- For Data visualization
+- Power BI(business intelligence)- For Data visualization
