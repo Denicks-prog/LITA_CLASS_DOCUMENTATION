@@ -32,3 +32,5 @@ This is the first phase of data analysis, and it involves:
 3. Transform data
 4. Data formatting.
 5. Validation of data etc.
+
+## Dara Visualization
