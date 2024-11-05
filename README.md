@@ -89,6 +89,18 @@ SELECT region, [total sales], ([total sales]/select sum([total sales]) from [dbo
 group by region, [total sales]
 ```
 
+### PROJECT 2
+```SQL
+select * from [dbo].[CustomerData$]
+
+select CustomerName, Region from [dbo].[CustomerData$]
+
+SELECT SubscriptionType, COUNT(Customername)AS NUMBEROFCUSTOMERS from [dbo].[CustomerData$]
+GROUP BY SubscriptionType
+ORDER BY NUMBEROFCUSTOMERS DESC
+
+SELECT AVG(Duration) AS AVERAGEDURATIONFORALLCUSTOMERS FROM [dbo].[CustomerData$]
+```
 
 ## Data Visualization
 ---
