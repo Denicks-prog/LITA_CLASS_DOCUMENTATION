@@ -19,7 +19,7 @@
 
 ## Project overview:
 ---
-This project is aimed at exploring the sales performance of a certain region or geaograpical area over a specific period of time. It helps to summarize these set of data, making it readable and interpretable. From these analysed set of data, we are able to draw meaningful conclusions and identify trends in sales data.
+This project is aimed at exploring the sales performance of a certain region or geaograpical area over a specific period of time. It helps to summarize these set of data, making it readable and interpretable. From these analysed set of data, we are able to draw meaningful conclusions and identify trends in sales.
 
 ## Data Sources:
 ---
