@@ -47,7 +47,15 @@ This is the first phase of data analysis, and it involves:
 
 ![P6](https://github.com/user-attachments/assets/67bc0609-fa83-42b2-8394-14cb51e2666c)
 
+![C1](https://github.com/user-attachments/assets/33ee2260-51bd-4d7e-ba3e-5bdf0e9bac7b)
 
+![C2](https://github.com/user-attachments/assets/2d8f74e5-7033-4fa7-a404-eca723048895)
+
+![C3](https://github.com/user-attachments/assets/0080a9b2-b261-4734-aa2e-0ed354213701)
+
+![C4](https://github.com/user-attachments/assets/5400e88e-d71b-4c0a-88d5-6be9980d2e71)
+
+![C5](https://github.com/user-attachments/assets/f499581d-4c40-414a-9eea-787ae8fe48bd)
 
 
 
