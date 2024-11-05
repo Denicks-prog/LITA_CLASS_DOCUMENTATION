@@ -1,4 +1,5 @@
 # LITA_CLASS_DOCUMENTATION
+```
 ## Project Title: Sales data Analysis
 
 ## Project overview:
