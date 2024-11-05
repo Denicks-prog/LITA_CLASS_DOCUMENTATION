@@ -2,6 +2,21 @@
 ---
 ## Project Title: Sales data Analysis
 ---
+[Project Overview](#project.overview)
+
+[Data Source](#data.source)
+
+[Tools Used](#tools.used)
+
+[Data Cleaning and Preparation](#data.cleaning.and.preparation)
+
+[Explorative Data Analysis](#explorative.data.analysis)
+
+[Data Analysis](#data.analysis)
+
+[Data Visualization](#data.visualization)
+
+
 ## Project overview:
 ---
 This project is aimed at exploring the sales performance of a certain region or geaograpical area over a specific period of time. It helps to summarize these set of data, making it readable and interpretable. From these analysed set of data, we are able to draw meaningful conclusions and identify trends in sales data.
@@ -24,7 +39,7 @@ The primary source of data used here is an open source data tht can easily be do
 - Power BI(Business Intelligence)- For Data visualization
 
 
-## Data Cleaning and Formatting
+## Data Cleaning and Preparation
 ---
 This is the first phase of data analysis, and it involves:
 1. Importing data
