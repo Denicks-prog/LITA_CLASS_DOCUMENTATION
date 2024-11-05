@@ -22,3 +22,13 @@ The primary source of data used here is an open source data tht can easily be do
 - Github for Portfolio Building
 
 - Power BI(Business Intelligence)- For Data visualization
+
+
+## Data Cleaning and Formatting
+---
+This is the first phase of data analysis, and it involves:
+1. Importing data
+2. Data inspection
+3. Transform data
+4. Data formatting.
+5. Validation of data etc.
