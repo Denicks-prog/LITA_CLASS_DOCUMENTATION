@@ -79,7 +79,7 @@ ORDER BY YEAR SALES, MONTH SALES
 
 SELECT SUM([total sales]) AS TOTALMONTHSALES FROM [dbo].[SalesData$]
 
-WHERE DATEPART(YEAR, OrderDate)=DATEPART(2023, GETDATE(04/11/2024)
+WHERE DATEPART(YEAR, OrderDate)=DATEPART(2023, GETDATE())
 
 SELECT TOP 5 [Customer Id], [total sales] FROM [dbo].[SalesData$]
 
@@ -98,6 +98,10 @@ select CustomerName, Region from [dbo].[CustomerData$]
 SELECT SubscriptionType, COUNT(Customername)AS NUMBEROFCUSTOMERS from [dbo].[CustomerData$]
 GROUP BY SubscriptionType
 ORDER BY NUMBEROFCUSTOMERS DESC
+
+SELECT COUNT(Customername) AS NO_OFCUSTOMERSWHOCANCELED FROM [dbo].[CustomerData$]
+WHERE SubscriptionEnd<=DATEADD(MONTH, -6, GETDATE())
+AND SubscriptionEnd IS NOT NULL
 
 SELECT AVG(Duration) AS AVERAGEDURATIONFORALLCUSTOMERS FROM [dbo].[CustomerData$]
 ```
